@@ -1,0 +1,30 @@
+{
+  "name": "ts-koa2",
+  "version": "1.0.0",
+  "description": "111",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon  ./src/server.ts",
+    "start1": "tsc && node dist/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tslint": "tslint --project . src/**/*.ts src/**/*.tsx"
+  },
+  "author": "xi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/koa": "^2.0.48",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.0.40",
+    "@types/socket.io": "^2.1.2",
+    "@types/uuid": "^3.4.4",
+    "commander": "^2.20.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.2.0",
+    "tslint": "^5.17.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.5.2"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "verbose": true,
+  "ignore": [
+    "dist",
+    ".git",
+    "node_modules",
+    "public",
+    "test",
+    "coverage",
+    "build"
+  ],
+  "watch": [
+    "src"
+  ],
+  "exec": "ts-node",
+  "ext": "ts,tsx"
+}
